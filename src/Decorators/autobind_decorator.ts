@@ -1,7 +1,5 @@
 const AutoBind = (_1: any, _2: string, descriptor: PropertyDescriptor) => {
     const originalMethod = descriptor.value;
-    console.log(descriptor);
-
     const adjDescriptor: PropertyDescriptor = {
         configurable: true,
         enumerable: false,
