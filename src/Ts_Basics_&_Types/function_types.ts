@@ -18,3 +18,6 @@ let combine1: (a: string, b: string) => string;
 
 // will cause error. Now we can't assign some other function to combine1 : -->
 // combine1 = add;
+combine1 = combine;
+
+console.log(combine("abc", "xyz"));

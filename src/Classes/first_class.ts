@@ -1,6 +1,8 @@
 "use strict";
 class Department {
-    constructor(name) {
+    public name: string;
+
+    constructor(name: string) {
         this.name = name;
     }
 }

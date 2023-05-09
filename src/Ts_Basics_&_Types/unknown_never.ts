@@ -2,9 +2,9 @@ let userInput: unknown;
 let userName: string;
 
 userInput = 4;
-userName = "Omkar"
+userName = "Omkar";
 
-userInput = userName
+userInput = userName;
 
 //can't do this way directly : -->
 // userName = userInput
@@ -18,4 +18,4 @@ const generateError = (message: string, code: number): never => {
     throw new Error(code + message);
 }
 
-generateError("Error occured...", 400);
+generateError("Error occurred...", 400);

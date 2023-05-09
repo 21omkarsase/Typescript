@@ -1,5 +1,9 @@
 class Department {
-    constructor(private readonly Id: string, private name: string, public company: string, private employees: { name: string, age: number }[]) {
+    constructor(
+        private readonly Id: string,
+        private name: string,
+        public company: string,
+        private employees: { name: string, age: number }[]) {
     }
 
     private getEmployeeNumber(this: Department) {
@@ -29,7 +33,12 @@ class Department {
 class Comps extends Department {
     private reports: string[];
 
-    constructor(Id: string, name: string, company: string, employees: { name: string, age: number }[], private admins: string[]) {
+    constructor(
+        Id: string,
+        name: string,
+        company: string,
+        employees: { name: string, age: number }[],
+        private admins: string[]) {
         super(Id, name, company, employees);
         this.reports = [];
     }

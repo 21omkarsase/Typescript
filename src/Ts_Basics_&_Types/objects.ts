@@ -14,3 +14,15 @@ const person: {
 };
 
 console.log("Person", person)
+
+type objType = {
+    name: string;
+    age: number;
+    college: string;
+}
+
+const obj1: objType = {
+    name: "Omkar Sase",
+    age: 21,
+    college: "PCE"
+}

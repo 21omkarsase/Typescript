@@ -9,6 +9,10 @@ interface SpecialActions extends GeneralActions {
 
 class Student implements SpecialActions {
 
+    run() {
+        console.log("Running...");
+    }
+
     live(this: Student) {
         console.log("Living...");
     }
