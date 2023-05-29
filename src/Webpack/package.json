@@ -1,18 +1,17 @@
 {
-  "name": "understanding-typescript",
+  "name": "webpack",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
+  "description": "webpack",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "keywords": [
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Omkar Sase",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
